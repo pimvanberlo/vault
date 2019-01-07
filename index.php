@@ -7,6 +7,8 @@
     <title></title>
 </head>
 <body>
-
+<button type="button" onclick="">1</button>
+<button type="button" onclick="">2</button>
+<button type="button" onclick="">3</button>
 </body>
 </html>
