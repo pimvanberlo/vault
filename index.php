@@ -24,7 +24,8 @@
     <br>
     <button class="vaultButton" type="button" onclick="buttonPressedKey(this)">0</button>
 </div>
-<div class="color"></div>
+<div id="correctVaultColor"></div>
+<div id="wrongVaultColor"></div>
 <script src="js/vault.js">  </script>
 </body>
 </html>

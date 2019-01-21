@@ -4,9 +4,25 @@ body {
 }
 
 #buttonContainer {
-text-align: center;
+    text-align: center;
 }
 
 button {
 
+}
+
+#correctVaultColor {
+    background-color: #004600;
+    padding: 50px;
+    display: block;
+    margin: 0 auto;
+    width: 0;
+}
+
+#wrongVaultColor {
+    background-color: #460000;
+    padding: 50px;
+    display: block;
+    margin: 0 auto;
+    width: 0;
 }
