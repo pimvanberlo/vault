@@ -65,7 +65,7 @@ button:hover {
 }
 
 .colorContainer {
-    width: 305px;
+    width: 309px;
     margin: 0 auto;
 }
 
@@ -74,6 +74,8 @@ button:hover {
     width: 150px;
     background-color: #004600;
     display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
 }
 
 #wrongVaultColor {
@@ -81,10 +83,11 @@ button:hover {
     width: 150px;
     background-color: #460000;
     display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
 }
 
 #vault {
-    /*visibility: hidden;*/
     position: absolute;
     left: 1600px;
 }
@@ -99,6 +102,7 @@ button:hover {
     visibility: hidden;
     position: absolute;
     left: 1200px;
+    top: 700px;
 }
 
 .rightWrongContainer {

@@ -61,7 +61,7 @@ function buttonPressedKey(pressedNumber) {
                 //change the css of the green and red box to create a blinking effect
                 console.log(intervalTimer);
                 if (correctColor.style.backgroundColor === "green") {
-                    correctColor.style.backgroundColor = "rgb(0, 70, 0)";
+                    correctColor.style.backgroundColor = "rgb(0, 80, 0)";
                 } else {
                     correctColor.style.backgroundColor = "green";
                 }
@@ -105,6 +105,7 @@ function buttonPressedKey(pressedNumber) {
                     unlockBlocker.style.visibility = "hidden";
                 }
             }
+
             // for loop for the button disabler
             for (var i = 0; i < buttons.length; i++) {
                 buttons[i].disabled = true;
@@ -117,7 +118,7 @@ function buttonPressedKey(pressedNumber) {
                 //change the css of the green and red box to create a blinking effect
                 console.log(intervalTimer);
                 if (wrongColor.style.backgroundColor === "red") {
-                    wrongColor.style.backgroundColor = "rgb(70, 0, 0)";
+                    wrongColor.style.backgroundColor = "rgb(80, 0, 0)";
                 } else {
                     wrongColor.style.backgroundColor = "red";
                 }
